@@ -1,10 +1,10 @@
-# jenkins-shared-library-
+# jenkins-shared-library
 
 ## Shared Library
 
 A shared library in Jenkins is a collection of reusable Groovy scripts that can be used in Jenkins pipelines. Shared libraries allow you to encapsulate common functionality into reusable components, which can make your pipelines more concise, maintainable, and reusable.
 
-# Here are some advantages of using a shared library in Jenkins:
+### Here are some advantages of using a shared library in Jenkins:
 
     * Code reuse
     * Consistency
@@ -12,7 +12,7 @@ A shared library in Jenkins is a collection of reusable Groovy scripts that can 
     * Version control
     * Testing
 
-## Here is an example of how to use a shared library in a Jenkinsfile:
+### Here is an example of how to use a shared library in a Jenkinsfile:
 
 ```groovy
 
@@ -61,3 +61,4 @@ pipeline{
         }   
     }
 }
+```
